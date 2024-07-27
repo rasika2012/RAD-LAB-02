@@ -39,6 +39,10 @@ const UserInvestments: React.FC<Props> = ({ investments, options,setUserInvestme
               <div className='text-sm  text-green-300'>Amount</div> 
               <div  className='text-lg'>{investment.amount?.toFixed(2)}</div>
             </div> 
+            <div className='flex flex-col w-1/4'>
+              <div className='text-sm  text-green-300'>Change</div> 
+              <div  className='text-lg'>{(((currentPrice(investment) - investment.option.currentPrice)/investment.option.currentPrice) * 100) ?.toFixed(2) }%</div>
+            </div> 
           </div>
   
         ))}
