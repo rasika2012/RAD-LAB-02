@@ -19,7 +19,7 @@ const InvestmentScenario: React.FC<Props> = ({ option, onInvest }) => {
     <h2 className='font-mono text-xl pt-3'>Buy Option {option.name}</h2>
       
     <div  className='bg-slate-700 p-3 rounded-md text-lg flex flex-row justify-center items-center' >
-        <div  className='text-lg' >Selling mount in USD: </div>
+        <div  className='text-lg' >Buying mount in USD: </div>
         <input max={100} min={0} type="number" className='bg-slate-700 outline-none p-3 w-16 text-lg' value={amount} onChange={(e) => setAmount(Number(e.target.value))} />
         <div  className='text-lg' >$</div>
       </div>
