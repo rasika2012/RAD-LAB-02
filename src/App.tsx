@@ -10,11 +10,11 @@ import { InvestmentOption, InvestmentScenario as Scenario, InvestmentSimulationR
 
 const App: React.FC = () => {
   const [updatedOptions, setUpdatedOptions] = useState<InvestmentOption[]>([
-    { name: 'Land', type: 'land', description: 'Moderate risk and return.', risk: 3, liqudity: 5, currentPrice: 100, history: []  },
-    { name: 'Bitcoin', type: 'bitcoin', description: 'High risk, high return.', risk: 10, liqudity: 20, currentPrice: 100, history: []  },
-    { name: 'Ethereum', type: 'ethereum', description: 'High risk, high return.', risk: 9, liqudity: 18, currentPrice: 100, history: []  },
-    { name: 'Gold', type: 'gold', description: 'Moderate risk and return.', risk: 5, liqudity: 6, currentPrice: 100, history: [] },
-    { name: 'Silver', type: 'silver', description: 'Moderate risk and return.', risk: 5, liqudity: 5, currentPrice: 100, history: [] },
+    { name: 'Land', type: 'land', description: 'Moderate risk and return.', risk: 3, liqudity: 5, currentPrice: 500, history: []  },
+    { name: 'Bitcoin', type: 'bitcoin', description: 'High risk, high return.', risk: 12, liqudity: 20, currentPrice: 36000, history: []  },
+    { name: 'Ethereum', type: 'ethereum', description: 'High risk, high return.', risk: 12, liqudity: 18, currentPrice: 12000, history: []  },
+    { name: 'Gold', type: 'gold', description: 'Moderate risk and return.', risk: 1, liqudity: 6, currentPrice: 542, history: [] },
+    { name: 'Silver', type: 'silver', description: 'Moderate risk and return.', risk: 1, liqudity: 5, currentPrice: 45, history: [] },
   ]);
   const [selectedOption, setSelectedOption] = useState<InvestmentOption | null>(null);
   const [scenario, setScenario] = useState<Scenario | null>(null);
