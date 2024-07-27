@@ -1,4 +1,3 @@
-// src/utils/priceSimulation.ts
 
 import { InvestmentOption } from "../types/investment";
 

@@ -1,4 +1,3 @@
-// src/components/InvestmentScenario.tsx
 
 import React, { useState } from 'react';
 import { InvestmentOption, UserInvestment } from '../types/investment';

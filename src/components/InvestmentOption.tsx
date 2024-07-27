@@ -1,4 +1,3 @@
-// src/components/InvestmentOptions.tsx
 
 import React, { useEffect, useState } from 'react';
 import { simulatePriceChange } from '../utils/priceSimulation';

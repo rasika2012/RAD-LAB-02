@@ -1,4 +1,3 @@
-// src/components/SimulationResult.tsx
 
 import React from 'react';
 import { InvestmentSimulationResult } from '../types/investment';

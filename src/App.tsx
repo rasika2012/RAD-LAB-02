@@ -1,4 +1,3 @@
-// src/App.tsx
 
 import React, { useState } from 'react';
 import InvestmentOptions from './components/InvestmentOption';
@@ -40,7 +39,7 @@ const App: React.FC = () => {
   return (
     <div className='bg-gradient-to-t from-slate-800 to-slate-900 text-slate-50 gap-4 overflow-hidden relative h-screen flex items-center flex-col justify-center'>
       <div className=' py-3 px-2 bg-gradient-to-t from-slate-800 to-green-900  border-solid border-gray-700 border-b-2 sticky  w-full gap-2 flex flex-col'>
-        <h1 className='text-white font-sans font-bold text-2xl'>Market Investment Simulator</h1>  
+        <h1 className='text-white font-sans font-bold text-2xl'>Virtual Money Market</h1>  
         <h2 className='bg-gray-800 border-green-300 border-solid border w-fit px-2 py-1 rounded-md text-gray-100'>Bank: {bankBalance.toFixed(2) + "$"}</h2>
       </div>
       <div className='overflow-auto px-2 flex h-full w-full flex-col'>

@@ -1,4 +1,3 @@
-// src/components/RiskReturnVisualization.tsx
 
 import React from 'react';
 import { InvestmentOption } from '../types/investment';

@@ -1,4 +1,3 @@
-// src/interfaces/InvestmentTypes.ts
 
 export interface InvestmentOption {
     name: string;
